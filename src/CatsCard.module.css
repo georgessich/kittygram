@@ -1,0 +1,40 @@
+.catscard { margin-bottom: 20px;}
+
+.catsimg {
+    width: 400px;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.controls {
+    margin-top: -5px;
+    width: 340px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.controls button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 48px;
+}
+
+.controls button:hover {
+    fill: red;
+}
+
+.like {
+   
+    fill: red;
+}
+
+/* .like:hover {
+    fill:red;
+} */

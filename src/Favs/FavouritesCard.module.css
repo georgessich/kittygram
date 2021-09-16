@@ -1,0 +1,35 @@
+.container {
+    
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    
+
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.container:hover .overlay{
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    color: #ffffff;
+    width: 90%;
+    opacity: 0;
+    bottom: 0;
+    font-size: 18px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s ease;
+}
