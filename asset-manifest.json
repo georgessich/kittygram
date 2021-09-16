@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kittygram/static/css/main.33834b2e.chunk.css",
+    "main.js": "/kittygram/static/js/main.a84fa7b0.chunk.js",
+    "main.js.map": "/kittygram/static/js/main.a84fa7b0.chunk.js.map",
+    "runtime-main.js": "/kittygram/static/js/runtime-main.97d472f2.js",
+    "runtime-main.js.map": "/kittygram/static/js/runtime-main.97d472f2.js.map",
+    "static/js/2.156f6f9d.chunk.js": "/kittygram/static/js/2.156f6f9d.chunk.js",
+    "static/js/2.156f6f9d.chunk.js.map": "/kittygram/static/js/2.156f6f9d.chunk.js.map",
+    "index.html": "/kittygram/index.html",
+    "static/css/main.33834b2e.chunk.css.map": "/kittygram/static/css/main.33834b2e.chunk.css.map",
+    "static/js/2.156f6f9d.chunk.js.LICENSE.txt": "/kittygram/static/js/2.156f6f9d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97d472f2.js",
+    "static/js/2.156f6f9d.chunk.js",
+    "static/css/main.33834b2e.chunk.css",
+    "static/js/main.a84fa7b0.chunk.js"
+  ]
+}
