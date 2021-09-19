@@ -19,15 +19,23 @@ function App() {
     localStorage.setItem('cats-fav', JSON.stringify(cats))
   }
 
-  const addCatToFavourites = (cat) => {
-    const newFavourites = [...favourites, cat];
+  const addCatToFavourites = (item) => {
+    let newFavourites = [...(favourites || []), item];
+
+    // if (newFavourites.length === 0) {
+    //   newFavourites.push(cat);
+    // } else {
+    //   newFavourites = [...favourites, cat]
+    // }
+
+    // const newFavourites = [...favourites, cat];
     setFavourites(newFavourites);
     console.log(newFavourites);
     addToLocalStorage(newFavourites);
   }
 
   const removeCatFromFavourites = (cat) => {
-    const newFavourites = favourites.filter(
+    let newFavourites = favourites.filter(
       (favourite) => favourite.id !== cat.id
     )
     setFavourites(newFavourites);
@@ -37,7 +45,7 @@ function App() {
   return (
       <Layout>
         <Switch>
-          <Route path='/kittygram' exact>
+          <Route path='/kittygram/' exact>
             <CatsCards addFav={addCatToFavourites} removeFav={removeCatFromFavourites}/>
           </Route>
           <Route path='/kittygram/favs'>

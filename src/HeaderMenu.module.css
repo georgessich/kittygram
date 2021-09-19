@@ -8,7 +8,49 @@
 }
 
 .link {
-  color: #000;
+  color: rgb(24, 20, 255);
   font-size: 24px;
   font-weight: 700;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 940px) {
+  .header {
+    gap: 500px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .header {
+    gap: 400px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .header img{
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header img{
+    width: 100px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .header {
+    gap: 320px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .header {
+    position: absolute;
+    gap: 50px;
+  }
 }
